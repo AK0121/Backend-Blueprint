@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 Backend-Blueprint
 
-## Getting Started
+> A bulletproof starter backend architecture for frontend devs becoming full-stack artists.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 What Is This?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Backend-Blueprint** is a clean, minimal backend system built using the latest **Next.js App Router API routes**.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+It’s made for:
+- Frontend devs learning backend for the first time
+- Builders who want to practice real-world HTTP methods (GET, POST, DELETE)
+- Makers who want to simulate a full-stack flow without needing a full DB yet
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Think of it as your **sandbox to understand how client ↔ API ↔ server ↔ DB** works — without complexity.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Layer        | Tool           |
+|--------------|----------------|
+| Frontend     | Next.js 14 (App Router) |
+| Backend API  | Next.js API Routes (app/api/) |
+| DB (Mocked)  | In-memory DB (custom `/db/` folder) |
+| State Mgmt   | React `useState` / `useEffect` |
+| Styling      | TailwindCSS (Optional) |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧩 Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ✅ **Custom API routes** using App Router (`GET`, `POST`, `DELETE`)
+- ✅ **In-memory "database"** for todos and posts
+- ✅ **Frontend + Backend in one monorepo**
+- ✅ **Fake DB layer** that mimics real-world backend structure
+- ✅ Minimal, readable code to learn and remix
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
